@@ -1,0 +1,38 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(back.jpg);
+	background-size: cover;
+}
+h1{
+	color: green;
+	text-align: center;
+	cursor: pointer;
+	font-family: Glamour;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+ul {
+	text-align: right;
+}
+
+Form {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.butt{
+	display: flex;
+	justify-content: center;
+	margin: 200px;
+	border: 10px 0px 0px 0px;
+}

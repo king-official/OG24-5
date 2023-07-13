@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Getting Started!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Create an account.</h1>
+	<!-- Use POST not GET -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>Register!</li>
+			<li><a href="Login.html">Log in</a></li>
+		</ul>
+	</nav>
+	<form method="POST">
+		First Name: <input type="text" name="firstname"> <br>
+		Last Name: <input type="text" name="lastname"> <br>
+		Email: <input type="email" required name="email"> <br>
+		Birthday: <input type="date" name="birthday"> <br>
+		Mobile Phone: <input type="string" name="mobilephone"> <br>
+		Country: <input type="text" name="country"> <br>
+		Password: <input type="password" name="password" min="5"> <br>
+		<input type="submit" name="Register" value="Register">
+		<input type="Reset">
+	</form>
+
+</body>
+</html>
